@@ -33,7 +33,8 @@ public class TestClass {
         Request request = new Request.Builder().url(graphqlUri).post(body).build();
         return client.newCall(request).execute();
     }
-
+    
+/*
     private void ExecuteTestType(String tt){
     	switch(tt) {
     	case "get member by name":ExecuteByName();break;
@@ -43,7 +44,9 @@ public class TestClass {
     }
     
     private void ExecuteByName(){}
-    private void ExecuteById(){}    
+    private void ExecuteById(){}  
+    */
+    
     @Test
     public void testGraphqlWithInputStream() throws IOException {
         // Read a graphql file as an input stream
@@ -137,7 +140,8 @@ public class TestClass {
         JsonNode jsonNode = new ObjectMapper().readTree(jsonData);
         Assert.assertEquals(jsonNode.get("data").get("pokemon").get("name").asText(), "Pikachu");
     }
-    
+  
+    /*  
     @Test(dataProvider="TestDataProvider")
     public void testMethod(String author,String searchKey) throws InterruptedException{
 
@@ -159,4 +163,6 @@ public class TestClass {
         JsonNode jsonNode = new ObjectMapper().readTree(jsonData);
         Assert.assertEquals(jsonNode.get("data").get("pokemon").get("name").asText(), "Pikachu");
     }
+*/
+    
 }

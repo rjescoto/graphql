@@ -2,24 +2,24 @@
 <testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-10-20T19:25:37Z" name="Default suite" finished-at="2019-10-20T19:25:39Z" duration-ms="1925">
+  <suite started-at="2019-10-26T17:49:24Z" name="Default suite" finished-at="2019-10-26T17:49:26Z" duration-ms="1611">
     <groups>
     </groups>
-    <test started-at="2019-10-20T19:25:37Z" name="Default test" finished-at="2019-10-20T19:25:39Z" duration-ms="1925">
+    <test started-at="2019-10-26T17:49:24Z" name="Default test" finished-at="2019-10-26T17:49:26Z" duration-ms="1611">
       <class name="com.vimalselvam.graphql.TestClass">
-        <test-method signature="testGraphqlFirstNWithFileAndVariables()[pri:0, instance:com.vimalselvam.graphql.TestClass@40005471]" started-at="2019-10-20T15:25:37Z" name="testGraphqlFirstNWithFileAndVariables" finished-at="2019-10-20T15:25:38Z" duration-ms="1215" status="PASS">
+        <test-method signature="testGraphqlFirstNWithFileAndVariables()[pri:0, instance:com.vimalselvam.graphql.TestClass@221a3fa4]" started-at="2019-10-26T13:49:24Z" name="testGraphqlFirstNWithFileAndVariables" finished-at="2019-10-26T13:49:25Z" duration-ms="708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGraphqlFirstNWithFileAndVariables -->
-        <test-method signature="testGraphqlWithFileAndVariables()[pri:0, instance:com.vimalselvam.graphql.TestClass@40005471]" started-at="2019-10-20T15:25:38Z" name="testGraphqlWithFileAndVariables" finished-at="2019-10-20T15:25:38Z" duration-ms="232" status="PASS">
+        <test-method signature="testGraphqlWithFileAndVariables()[pri:0, instance:com.vimalselvam.graphql.TestClass@221a3fa4]" started-at="2019-10-26T13:49:25Z" name="testGraphqlWithFileAndVariables" finished-at="2019-10-26T13:49:25Z" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGraphqlWithFileAndVariables -->
-        <test-method signature="testGraphqlWithInputStream()[pri:0, instance:com.vimalselvam.graphql.TestClass@40005471]" started-at="2019-10-20T15:25:38Z" name="testGraphqlWithInputStream" finished-at="2019-10-20T15:25:39Z" duration-ms="220" status="PASS">
+        <test-method signature="testGraphqlWithInputStream()[pri:0, instance:com.vimalselvam.graphql.TestClass@221a3fa4]" started-at="2019-10-26T13:49:25Z" name="testGraphqlWithInputStream" finished-at="2019-10-26T13:49:26Z" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGraphqlWithInputStream -->
-        <test-method signature="testGraphqlWithNoVariables()[pri:0, instance:com.vimalselvam.graphql.TestClass@40005471]" started-at="2019-10-20T15:25:39Z" name="testGraphqlWithNoVariables" finished-at="2019-10-20T15:25:39Z" duration-ms="228" status="PASS">
+        <test-method signature="testGraphqlWithNoVariables()[pri:0, instance:com.vimalselvam.graphql.TestClass@221a3fa4]" started-at="2019-10-26T13:49:26Z" name="testGraphqlWithNoVariables" finished-at="2019-10-26T13:49:26Z" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGraphqlWithNoVariables -->
